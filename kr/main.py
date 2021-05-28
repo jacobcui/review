@@ -1,8 +1,8 @@
 
 from calculator import Calculator
 
-area_triangle = Calculator.Triangle().area(5, 6)
-print("Area of triangle is {}".format(area_triangle, ':.2'))
+area_triangle = Calculator.Triangle().area(5, 3.11)
+print("Area of triangle is {:.2f}".format(area_triangle))
 
 area_square = Calculator.Square().area(5)
-print("Area of square is {}".format(area_square, ':.2'))
+print("Area of square is {:.2f}".format(area_square))
