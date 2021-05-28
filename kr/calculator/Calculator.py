@@ -4,7 +4,7 @@ from .Abstract import AreaCalculator
 class Square(AreaCalculator):
     # noinspection PyMethodMayBeStatic
     def area(self, *params):
-        return float(params[0] ** 2)
+        return params[0] ** 2
 
 class Triangle(AreaCalculator):
     # noinspection PyMethodMayBeStatic
